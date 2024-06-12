@@ -27,3 +27,15 @@
 ------------------------------------------------
 - The only thing that does not work is the users logging in from section 12 --> there are issues with permissions (check the console)
 - Once that is solved everything else should work --> postman tests worked just need to verify they actual site functionality
+
+------------------------------------------------
+-------------------GIT THINGS-------------------
+------------------------------------------------
+ADD A FILE TO STAGING
+  git add 'filename'
+
+COMMIT THE STAGING
+   git commit -m "a note on what is being added"
+
+PUSH TO THE REPO
+   git push -u origin main
