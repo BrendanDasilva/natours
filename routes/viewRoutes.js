@@ -11,6 +11,7 @@ const router = express.Router();
 //////////////////////////////////////////
 ///////////////// ROUTES /////////////////
 //////////////////////////////////////////
+router.use(viewsController.alerts);
 router.get("/", authController.isLoggedIn, viewsController.getOverview);
 router.get("/tour/:slug", authController.isLoggedIn, viewsController.getTour);
 router.get("/login", authController.isLoggedIn, viewsController.getLoginForm);
